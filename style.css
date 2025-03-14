@@ -1,0 +1,36 @@
+/* FONTS */
+
+@font-face {
+    font-family: "Press Start 2P";
+    src:
+        local("Press Start 2P"),
+        url("fonts/PressStart2P-Regular.ttf") format("truetype"),
+}
+
+/* ELEMENTS */
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P";
+}
+
+/* CLASSES */
+
+.game-heading {
+    margin: 2.5rem 0rem;
+    text-align: center;
+}
+
+.game-table th {
+    padding: 2.5rem;
+}
+
+.game-stats {
+    display: flex;
+    margin: 2rem 0rem;
+    justify-content: space-between;
+}

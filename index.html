@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic Tac Toe</title>
+
+	<!-- STYLES -->
+	<link rel="stylesheet" href="node_modules/nes.css/css/nes.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- SCRIPT -->
+	<script defer src="script.js"></script>
+</head>
+<body>
+
+	<!-- GAME-HEADING -->
+	<h2 class="game-heading">
+		<i class="nes-logo"></i> Tic Tac Toe
+	</h2>
+
+	<!-- GAME-TABLE -->
+	<div class="game-table nes-table-responsive">
+
+		<!-- TABLE -->
+	 	<table class="nes-table is-bordered is-centered">
+
+	 		<!-- TABLE-HEAD -->
+	    	<thead>
+
+	    		<!-- table-row-1 -->
+	      		<tr>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	      		</tr>
+
+	      		<!-- table-row-2 -->
+	      		<tr>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	      		</tr>
+
+	      		<!-- table-row-3 -->
+	      		<tr>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	    			<th>[]</th>
+	      		</tr>
+	    	</thead>
+	  	</table>
+	</div>
+
+	<!-- GAME-STATS -->
+	<h2 class="game-stats">
+
+		<!-- GAME-PLAYER-1 -->
+		<span class="nes-text is-primary">X</span>
+
+		<!-- PLAYER-SCORES -->
+		<span>
+			<span class="nes-text is-error" id="player1-score">0</span>
+			<span class="nes-text is-disabled"> vs </span>
+			<span class="nes-text is-error" id="player2-score">0</span>
+		</span>
+
+		<!-- GAME-PLAYER-2 -->
+		<span class="nes-text is-primary">O</span>
+
+	</h2>
+</body>
+</html>
