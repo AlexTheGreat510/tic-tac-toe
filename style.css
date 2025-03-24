@@ -26,7 +26,8 @@ html, body, pre, code, kbd, samp {
 }
 
 .game-table th {
-    padding: 2.5rem;
+    padding: 2rem;
+    font-size: 1.5rem;
 }
 
 .game-stats {
