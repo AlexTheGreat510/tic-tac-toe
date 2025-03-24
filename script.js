@@ -17,6 +17,9 @@ gameCells.forEach((cell) => {
 
 		/* change cell text */
 		cell.innerText = currentPlayer;
+        
+        /* change cell color */
+        cell.style.color = 'black';
 
 		/* check the winner of the game */
 		checkWinner(currentPlayer);
@@ -34,6 +37,7 @@ function emptyCells()
 {
 	gameCells.forEach((cell) => {
 		cell.innerText = '[]';
+        cell.style.color = 'gray';
 	});
 }
 

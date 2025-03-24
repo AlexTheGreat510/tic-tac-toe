@@ -26,6 +26,7 @@ html, body, pre, code, kbd, samp {
 }
 
 .game-table th {
+    color: gray;
     padding: 2.5rem;
 }
 
